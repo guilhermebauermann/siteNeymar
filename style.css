@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color:black;
+}
+
+.foto {
+    border-radius: 0%;
+    width:1500px;
+    height:1000px;
+}
+ #inicio {
+    bottom: 0;
+    background: linear-gradient(rgb(136, 6, 6) 0%, rgb(33, 3, 104) 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+ }
+ #name {
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    color:black;
+ }
+ #titulo {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    color:black;
+ }
+
+ #sobre p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 50px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+ 
+ #familia {
+   
+   background-color: rgb(255, 255, 255);
+ }
+ .line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+ }
+ .parallax-inner {
+   display: table-cell;
+   vertical-align: middle;
+ }
+ .myNavBar {
+   position:sticky;
+   top: 0;
+   z-index: 9;
+ }
+.links {
+   display: inline;
+   padding-left: 33px;
+   padding-right: 25px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 20px;
+}
+
+.links:hover {
+   font-size: 25px;
+
+}
+#contatos {
+   background-color: rgb(255, 255, 255);
+}
+#conatos {
+   width: 100%;
+}
+.contatos_1 h3 {
+   display: inline;
+   padding-bottom: 20px;
+}
